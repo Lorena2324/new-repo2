@@ -52,7 +52,9 @@
 }
 
 .header__footer {
-  margin-top: auto 80px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin:auto 80px 40px;
 }
 
 .header__span-accent{
@@ -93,13 +95,13 @@
 }
 
 .recipes{
-  display: flex;
-  flex-direction:column;
+   padding-bottom: 215px;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
+  margin: 0;
 
 }
 
@@ -145,3 +147,4 @@ margin: 0;
 .recipes__video-caption_time{
   margin:0;
 }
+
